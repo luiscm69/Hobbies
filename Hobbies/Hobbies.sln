@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HobbiesServices", "HobbiesServices\HobbiesServices.csproj", "{B084254E-3AE1-4D1A-A62B-EB7225ADF964}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Librerias", "Librerias", "{DA7C4258-A01F-4C24-BD21-C485CBC02880}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\RendicionGastos\RendicionGastos\Librerias\EntityFramework.dll = ..\..\RendicionGastos\RendicionGastos\Librerias\EntityFramework.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

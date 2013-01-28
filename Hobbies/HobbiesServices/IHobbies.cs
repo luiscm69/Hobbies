@@ -12,5 +12,6 @@ namespace HobbiesServices
     {
         [OperationContract]
         void registrarServicio(int codigo, string descripcion);
+
     }
 }
