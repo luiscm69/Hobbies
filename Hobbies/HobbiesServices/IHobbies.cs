@@ -11,7 +11,7 @@ namespace HobbiesServices
     public interface IHobbies
     {
         [OperationContract]
-        void registrarServicio(int codigo, string descripcion);
+        void registrarHobby(int codigo, string descripcion);
 
     }
 }

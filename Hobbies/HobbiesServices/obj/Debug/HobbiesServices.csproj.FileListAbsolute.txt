@@ -4,3 +4,4 @@ D:\Proyectos\UPC\Hobbies\Hobbies\HobbiesServices\obj\Debug\ResolveAssemblyRefere
 D:\Proyectos\UPC\Hobbies\Hobbies\HobbiesServices\obj\Debug\HobbiesServices.dll
 D:\Proyectos\UPC\Hobbies\Hobbies\HobbiesServices\obj\Debug\HobbiesServices.pdb
 D:\Proyectos\UPC\Hobbies\Hobbies\HobbiesServices\bin\EntityFramework.dll
+D:\Proyectos\UPC\Hobbies\Hobbies\HobbiesServices\bin\MySql.Data.dll

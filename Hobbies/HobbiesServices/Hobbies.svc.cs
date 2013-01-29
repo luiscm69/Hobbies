@@ -4,7 +4,6 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
-using HobbiesServices.Dominio;
 using HobbiesServices.Persistencia;
 
 namespace HobbiesServices
@@ -12,14 +11,13 @@ namespace HobbiesServices
     public class Hobbies : IHobbies
     {
 
-        public void registrarServicio(int codigo, string descripcion)
+        public void registrarHobby(int codigo, string descripcion)
         {
-            Hobbie nuevoHobbie = new Hobbie();
-            nuevoHobbie.codigo = codigo;
-            nuevoHobbie.descripcion = descripcion;
+            var hb = hobby.Createhobby(codigo);
+            hb.descripcion = descripcion;
 
-            HobbieDAO hDAO = new HobbieDAO();
-            hDAO.registrarHobbie(nuevoHobbie);
+            HobbyDAO hDAO = new HobbyDAO();
+            hDAO.registrarHobby(hb);
         }
     }
 }
