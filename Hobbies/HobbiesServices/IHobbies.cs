@@ -13,5 +13,11 @@ namespace HobbiesServices
         [OperationContract]
         void registrarHobby(int codigo, string descripcion);
 
+        [OperationContract]
+        List<int> listarHobbies();
+
+        [OperationContract]
+        string obtenerDescripcionHobby(int codigo);
+
     }
 }
