@@ -13,11 +13,19 @@ namespace HobbiesServices
 
         public void registrarHobby(int codigo, string descripcion)
         {
-            var hb = hobby.Createhobby(codigo);
-            hb.descripcion = descripcion;
+            try
+            {
+                var hb = hobby.Createhobby(codigo);
+                hb.descripcion = descripcion;
 
-            HobbyDAO hDAO = new HobbyDAO();
-            hDAO.registrarHobby(hb);
+                HobbyDAO hDAO = new HobbyDAO();
+                hDAO.registrarHobby(hb);
+            }
+            catch (Exception)
+            {
+                
+                throw new FaultException("El codigo ya se encuentra registrado. Ingreso uno distinto");
+            }
         }
 
         public List<string> listarHobbies()
