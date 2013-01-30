@@ -9,7 +9,6 @@ namespace HobbiesServices.Persistencia
     {
         public void registrarHobby(hobby hobbyEntity)
         {
-            
             using (var db = new MySqlEntities())
             {
                 db.hobbies.AddObject(hobbyEntity);
@@ -17,21 +16,12 @@ namespace HobbiesServices.Persistencia
             }
         }
 
-        public List<int> ListarHobbies()
+        public List<string> ListarHobbies()
         {
             using (var db = new MySqlEntities())
             {
-                var resultado = from l in db.hobbies select 1;
+                var resultado = from l in db.hobbies select l.descripcion;
                 return resultado.ToList();
-            }
-        }
-
-        public string ObtenerDescripcionHobby(int codigo)
-        {
-            using (var db = new MySqlEntities())
-            {
-                var resultado = from l in db.hobbies where l.codigo == codigo select l;
-                return resultado.FirstOrDefault().descripcion;
             }
         }
 

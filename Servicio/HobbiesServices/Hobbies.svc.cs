@@ -20,16 +20,10 @@ namespace HobbiesServices
             hDAO.registrarHobby(hb);
         }
 
-        public List<int> listarHobbies()
+        public List<string> listarHobbies()
         {
             HobbyDAO hDAO = new HobbyDAO();
             return hDAO.ListarHobbies();
-        }
-
-        public string obtenerDescripcionHobby(int codigo)
-        {
-            HobbyDAO hDAO = new HobbyDAO();
-            return hDAO.ObtenerDescripcionHobby(codigo);
         }
 
     }
