@@ -8,6 +8,7 @@ using System.Text;
 namespace HobbiesServices
 {
     [ServiceContract]
+    [ServiceBehavior(AddressFilterMode = AddressFilterMode.Any)]
     public interface IHobbies
     {
         [OperationContract]
