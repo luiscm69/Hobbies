@@ -1,5 +1,0 @@
-D:\Proyectos\UPC\Hobbies\Hobbies\HobbiesMVC\bin\HobbiesMVC.dll
-D:\Proyectos\UPC\Hobbies\Hobbies\HobbiesMVC\bin\HobbiesMVC.pdb
-D:\Proyectos\UPC\Hobbies\Hobbies\HobbiesMVC\obj\Debug\ResolveAssemblyReference.cache
-D:\Proyectos\UPC\Hobbies\Hobbies\HobbiesMVC\obj\Debug\HobbiesMVC.dll
-D:\Proyectos\UPC\Hobbies\Hobbies\HobbiesMVC\obj\Debug\HobbiesMVC.pdb
