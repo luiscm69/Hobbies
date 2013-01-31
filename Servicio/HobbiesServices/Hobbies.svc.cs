@@ -15,23 +15,34 @@ namespace HobbiesServices
         {
             try
             {
-                var hb = hobby.Createhobby(codigo);
+                hobby hb = new hobby();
+                hb.codigo = codigo;
                 hb.descripcion = descripcion;
 
                 HobbyDAO hDAO = new HobbyDAO();
                 hDAO.registrarHobby(hb);
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 
-                throw new FaultException("El codigo ya se encuentra registrado. Ingreso uno distinto");
+                //throw new FaultException("El codigo ya se encuentra registrado. Ingreso uno distinto");
+                throw new FaultException(e.Message);
             }
         }
 
         public List<string> listarHobbies()
         {
-            HobbyDAO hDAO = new HobbyDAO();
-            return hDAO.ListarHobbies();
+            try
+            {
+                HobbyDAO hDAO = new HobbyDAO();
+                return hDAO.ListarHobbies();
+            }
+            catch (Exception e)
+            {
+
+                throw new FaultException(e.Message);
+                
+            }
         }
 
     }
