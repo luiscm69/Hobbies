@@ -8,3 +8,5 @@ D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\HobbiesServices.pdb
 D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\obj\Debug\ResolveAssemblyReference.cache
 D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\obj\Debug\HobbiesServices.dll
 D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\obj\Debug\HobbiesServices.pdb
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\MySql.Data.dll
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\System.Data.dll
