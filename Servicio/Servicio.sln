@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HobbiesServices", "HobbiesServices\HobbiesServices.csproj", "{B084254E-3AE1-4D1A-A62B-EB7225ADF964}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Librerias", "Librerias", "{DDDCA284-999A-4879-AEA2-07F26BBBE974}"
+	ProjectSection(SolutionItems) = preProject
+		Librerias\MySql.Data.dll = Librerias\MySql.Data.dll
+		Librerias\MySql.Data.Entity.dll = Librerias\MySql.Data.Entity.dll
+		Librerias\MySql.Web.dll = Librerias\MySql.Web.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
