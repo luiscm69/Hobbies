@@ -9,3 +9,11 @@ D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\obj\Debug\ResolveAssemblyRefer
 D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\obj\Debug\HobbiesServices.dll
 D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\obj\Debug\HobbiesServices.pdb
 D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\System.Data.dll
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\MySql.Data.dll
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\MySql.Data.Entity.dll
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\MySql.Web.dll
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\System.ComponentModel.DataAnnotations.dll
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\System.Data.Entity.dll
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\System.dll
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\System.Runtime.Serialization.dll
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\System.Xml.dll
